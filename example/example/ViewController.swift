@@ -1,5 +1,5 @@
 import UIKit
-import AptosSwift
+import aptos_swift
 import SwiftyJSON
 
 enum MENU {

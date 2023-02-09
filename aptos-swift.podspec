@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'AptosSwift'
+  s.name = 'aptos-swift'
   s.version = '0.0.1'
   s.license = 'MIT'
   s.summary = 'Aptos iOS SDK'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5']
 
-  s.source_files = 'Sources/AptosSwift/*.swift'
+  s.source_files = 'Sources/aptos-swift/*.swift'
 
   s.dependency 'Alamofire'
   s.dependency 'SwiftyJSON'

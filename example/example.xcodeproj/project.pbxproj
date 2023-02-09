@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18805C9C29938B000000B01B /* AptosSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 18805C9B29938B000000B01B /* AptosSwift */; };
 		18AFCC2B2942205500F009FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFCC2A2942205500F009FC /* AppDelegate.swift */; };
 		18AFCC2D2942205500F009FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFCC2C2942205500F009FC /* SceneDelegate.swift */; };
 		18AFCC2F2942205500F009FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFCC2E2942205500F009FC /* ViewController.swift */; };
 		18AFCC322942205500F009FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFCC302942205500F009FC /* Main.storyboard */; };
 		18AFCC342942205600F009FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AFCC332942205600F009FC /* Assets.xcassets */; };
 		18AFCC372942205600F009FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFCC352942205600F009FC /* LaunchScreen.storyboard */; };
+		251C6A4F2994B645007F31A6 /* aptos-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 251C6A4E2994B645007F31A6 /* aptos-swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,6 @@
 		18AFCC332942205600F009FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AFCC362942205600F009FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AFCC382942205600F009FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18AFCC612942F6BF00F009FC /* suiswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = suiswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18805C9C29938B000000B01B /* AptosSwift in Frameworks */,
+				251C6A4F2994B645007F31A6 /* aptos-swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +54,6 @@
 				188A32B52942F8F900AAEFCC /* Packages */,
 				18AFCC292942205500F009FC /* example */,
 				18AFCC282942205500F009FC /* Products */,
-				18AFCC602942F6BF00F009FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +79,6 @@
 			path = example;
 			sourceTree = "<group>";
 		};
-		18AFCC602942F6BF00F009FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18AFCC612942F6BF00F009FC /* suiswift.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,7 +96,7 @@
 			);
 			name = example;
 			packageProductDependencies = (
-				18805C9B29938B000000B01B /* AptosSwift */,
+				251C6A4E2994B645007F31A6 /* aptos-swift */,
 			);
 			productName = example;
 			productReference = 18AFCC272942205500F009FC /* example.app */;
@@ -393,9 +383,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		18805C9B29938B000000B01B /* AptosSwift */ = {
+		251C6A4E2994B645007F31A6 /* aptos-swift */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = AptosSwift;
+			productName = "aptos-swift";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

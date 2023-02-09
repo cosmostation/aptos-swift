@@ -17,7 +17,7 @@ This repository contains core functionality needed to create Aptos Wallet.
 
 #### Swift Package Manager
 
-You can use [The Swift Package Manager](https://swift.org/package-manager) to install `AptosSwift` by adding the proper description to your `Package.swift` file:
+You can use [The Swift Package Manager](https://swift.org/package-manager) to install `aptos-swift` by adding the proper description to your `Package.swift` file:
 ```swift
 dependencies: [
     .package(url: "https://github.com/cosmostation/aptos-swift.git", .branch("main"))
@@ -26,7 +26,7 @@ dependencies: [
 
 #### CocoaPods
 
-You can use [CocoaPods](http://cocoapods.org/) to install `AptosSwift` by adding it to your `Podfile`:
+You can use [CocoaPods](http://cocoapods.org/) to install `aptos-swift` by adding it to your `Podfile`:
 
 ```ruby
 platform :ios, '13.0'
